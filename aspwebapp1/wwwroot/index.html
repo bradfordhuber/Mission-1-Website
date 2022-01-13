@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bradford Huber</title>
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="Bootstrap/css/bhstyles.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/jpg" href="img/Group 13 (4).png">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-white nav-section">
+            <div class="site-container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Group 12.svg" width="200" class="d-inline-block align-top" alt="">
+                </a>
+            </div>
+        </nav>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="bh-gradient hero-section ">
+        <div class="hero site-container">
+            <div class="two-column">
+                <h1>Hey There, I'm Bradford</h1>
+                <p>As a Cyclist at heart, I love anything with 2 wheels. Mountain Biking, Road Biking, you name it. I design and build websites for work, and find it satisfying to make beutiful, highly functional websites.</p>
+            </div>
+            <div class="two-column" style="text-align:right">
+                <img src="img/bradford-bg.png" />
+            </div>
+        </div>
+    </section>
+
+    <!--IS 413 Section-->
+    <section class="site-section ">
+        <div class="site-container">
+            <div class="two-column">
+                <h2>Why I'm looking forward to IS 413</h2>
+                <p>
+                    I work as a web designer, so I'm looking forward to developing my skills in IS 413. I'm hoping to get better at all of the backend work that goes into making a site dynamic. I feel pretty comfortable with html and css, and so am looking forward to learn
+                    more about creating complex functionalities, using api's, and more. '
+                </p>
+            </div>
+            <div class="two-column" style="text-align:right">
+                <img style="width: 80%;" src="img/252671696_1573537656313558_4138069498365332162_n (1).jpg" />
+            </div>
+        </div>
+    </section>
+
+    <!--Jobs I'd be interested In-->
+    <section class="site-section " style="background: #CDD0E1">
+        <div class="site-container">
+            <div class="one-column">
+                <div>
+                    <h2>Jobs I'm Interested In</h2>
+                    <ul>
+                        <li>Web Developer</li>
+                        <li>UI/UX Designer</li>
+                        <li>Start a Web Design and Development Agency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Grade Calculator-->
+    <section class="site-section ">
+        <div class="site-container">
+            <div class="one-column">
+                <div>
+                    <h2>IS 413 Grade Calculator</h2>
+                    <p>Fill out the following form to calculator your grade percentage. </p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="assignments" class="form-label">Assignments</label>
+                            <input type="number" class="form-control" id="assignments" aria-describedby="Help">
+                            <div id="Help" class="form-text">Write the Percentage you got on the assignements section. If you scored 80%, simply write 80.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="group" class="form-label">Group Project</label>
+                            <input type="number" class="form-control" id="group">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="quiz" class="form-label">Quizzes</label>
+                            <input type="number" class="form-control" id="quiz">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exams" class="form-label">Exams</label>
+                            <input type="number" class="form-control" id="exams">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="intex" class="form-label">Intex</label>
+                            <input type="number" class="form-control" id="intex">
+                        </div>
+                        <button type ="button"class="btn btn-primary" id="gradebtn">Submit</button>
+                        <!--<input value="Submit" id="gradebtn">-->
+                    </form>
+                    <h2 style ="margin-top: 50px;"id="output"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="javascript/bhwebsite.js"></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+
+
+
+</body>
+</html>
